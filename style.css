@@ -3,13 +3,12 @@ html, body{
     padding-left: 15px;
     padding-right: 15px;
     max-width: 950px;
-    background-color: blue;
+   /* background-color: blue; */
 } 
 #container {
     display: flex;            /* flexibel layout och wrapping */
     flex: wrap;
-    /*flex-direction: row;*/
-    background-color: yellowgreen;
+   /* background-color: yellowgreen; */
 }
 ul {
     list-style-type: none;   /* lista utan punkter  */
@@ -19,77 +18,18 @@ ul {
     margin-right: 5px;
     display: inline-block;
 }
+/*
 #stadrad {
-    /*flex-flow: row wrap;  /* innehållet läggs radvis, wrap vid behov */
-    /*flex-direction: row; */
     background-color: red;
 }
 #land {
-    /*display: flex;
-    /*flex-wrap: wrap;
-    justify-content: space-around;
-    list-style-type: none; 
-    display: inline-block;*/
     background-color: white;
 }
 #stad {
-    /*display: flex;
-    flex-direction: column;
-    list-style-type: disc; */
-    /*float: right;
-    display: inline-block;*/
     background-color: goldenrod;
 }
+*/
 #antal {
-    /*float: right;
-    display: inline-block;*/
-    background-color: blueviolet;
-}
-/*#bbx2 li:first-child {
-    list-style-type: none;
-    padding-bottom: 5px;
-    font-size: 1.2em;
-}
-#merinfo ul {
-    list-style-type: none; 
-}
-#egentext {
-    clear: both;
-   /* background-color: coral;
-}
-#merinfo {
-   /* background-color: burlywood;
-}
-a {
-    text-decoration: none;
-} */
-
-@media all and (max-width: 800px){     /* t ex läsplattor */
-    #container {
-        background-color: grey;
-    } 
-    img {
-        width:150px;
-    } 
-    #bbx2 {
-        display: flex;
-        flex-direction: column;
-        list-style-type: disc;
-    }
-    #bbx2 li:first-child {
-        list-style-type: none;
-        padding-bottom: 5px;
-        font-size: 1.2em;
-    }
-}
-@media only screen and (max-width: 360px){  /* smal skärm = små bilder */
-    #container{
-        padding-left: 5px;
-        padding-right: 5px;
-        background-color: turquoise;
-    }
-    #bbx2 p {
-        margin:0;
-        background-color: yellow;
-    }
+    text-align: right;
+  /*  background-color: blueviolet; */
 }
