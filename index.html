@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- inlänkning av CSS-fil för styling        -->
+    <link rel="stylesheet" href="style.css" type="text/CSS" />
+
+    <!-- title visas på web-fliken                -->
+    <title>Städer o länder</title>
+</head>
+
+<!-- endast innehållet i body visas på skärmen    -->
+<body>
+
+<div id="container">
+    <ul id="lista">
+        <li id="rubrik"></li>
+            <div class="rad">Land</div>
+            <div class="rad">Stad</div>
+            <div class="rad">Antal invånare</div>
+
+
+        <li id="stadrad">
+            <div id="land" class="rad"></div>
+            <div id="stad" class="rad"></div>
+            <div id="antal" class="rad"></div>
+            <br>
+        </li>
+    </ul>
+</div>
+
+</body>
+
+<!-- javascript bör läggas efter body-taggen, så att hela   -->
+<!-- html-dokumentet laddas in innan javascript laddas in   -->
+<script src="script.js"></script> 
+
+<html>
